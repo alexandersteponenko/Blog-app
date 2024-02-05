@@ -1,0 +1,105 @@
+body {
+  width: 100%;
+  font-family: "inter", "Manrope", sans-serif;
+  font-weight: 400;
+  background: #fff;
+}
+.posts-application,
+.post-title-input,
+.post-text-input,
+.post__title,
+.post__text {
+  font-family: cursive;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.posts-application {
+  font-size: 60px;
+  margin: 50px 0;
+  text-align: center;
+}
+.posts__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+.posts__col {
+  width: 500px;
+}
+.posts__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+h2 {
+  margin-bottom: 55px;
+  font-size: 40px;
+}
+.post-title-input {
+  width: 500px;
+  height: 60px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  font-size: 30px;
+}
+.post-text-input {
+  width: 500px;
+  height: 250px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  font-size: 30px;
+  resize: none;
+}
+.desc__countCharacters {
+  font-size: 20px;
+  color: #0094ff;
+}
+#newPostBtn {
+  width: 100%;
+  height: 60px;
+  font-size: 32px;
+  font-family: inherit;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: #0094ff;
+}
+#newPostBtn:enabled {
+  background-color: #05f825;
+  color: white;
+}
+.validationMessage {
+  font-size: 20px;
+  text-wrap: nowrap;
+  color: #f00;
+}
+.validationMessage_hidden {
+  display: none;
+}
+.posts {
+  font-size: 32px;
+  line-height: normal;
+  color: #979797;
+}
+.post__date {
+  margin-bottom: 15px;
+  font-size: 25px;
+  color: #0094ff;
+}
+.post__title {
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+}
+.post__text {
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-weight: 400;
+  color: #000;
+}
